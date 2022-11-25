@@ -1,0 +1,14 @@
+= REACT application to test Azure Kubernetes Deployment Service With GitHub Actions
+
+Based on
+https://github.com/jaydestro/react-clock-basic/commit/8bdf92b01900fcc1bf4a5f0e87a42980a10ebcaa.
+
+== Local test/deployment with Docker
+
+----
+$ docker build -t paulojeronimo/react-clock-basic .
+$ docker run -it --rm -p 8080:8080 paulojeronimo/react-clock-basic
+----
+
+READ MORE:
+https://paulojeronimo.com/aks-with-github-actions-tutorial
